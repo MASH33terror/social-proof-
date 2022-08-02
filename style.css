@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@media screen and (max-width: 375px){
+
+    
+    .container {
+    position: relative;
+    padding: 0px 20px;
+    padding-top: 100%;
+   
+}
+  
+    h1{
+        text-align: center;
+        color: hsl(300, 43%, 22%);
+        font-size: 43px;
+    }
+
+    #no1p{
+            text-align: center;
+            color: hsl(303, 10%, 53%);
+            margin-top: 20px;
+            font-weight: 400;
+        }
+
+    .svg{
+            text-align: center;
+            background-color:  hsl(300, 24%, 96%);
+            padding: 10px 20px;
+            border-radius: 9px;
+            margin-top: 15px;
+        }
+    
+    
+    .svg p{
+            color:  hsl(300, 43%, 22%);
+            font-weight: 700;
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+    
+
+    .men{
+            background: hsl(300, 43%, 22%);
+            width:100%;
+            height: 100%;
+            border-radius: 9px;
+            margin-top: 40px;
+    }
+    
+    .ss1 {
+        margin-top: 20px;
+    }
+
+
+
+    .pad {
+        padding: 50px 20px;
+    }
+
+    img{
+        border-radius: 50%;
+        width: 30px;
+    }
+
+    .pad h5 {
+        position: absolute;
+        left: 82px;
+        display: inline-block;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+        font-size: 15px;
+        
+    }
+
+    
+    .pad p{
+    font-size: 15px;
+    color:  hsl(300, 24%, 96%);
+    font-weight: 400;
+    margin-top: 20px;  
+}
+
+span{
+    color: hsl(333, 80%, 67%);
+    font-size: 11px;
+}
+
+   
+}
+@media screen and (min-width: 376px){
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    position: relative;
+   
+}
+
+h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 30px
+}
+
+#no1p{
+    color: hsl(303, 10%, 53%);
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.men{
+    background: hsl(300, 43%, 22%);
+    width: 270px;
+    height: 170px;
+    float: left;
+    border-radius: 9px;
+}
+
+.ss1{
+    margin-left: 20px;
+}
+
+
+.ss2{
+    margin-top: 15px
+}
+
+.ss3{
+    margin-top: 30px
+}
+
+#grp{
+    margin-top: 50px;
+}
+
+.svg p {
+ color:  hsl(300, 43%, 22%);
+ font-weight: 700;
+ display: inline-block;
+ margin-left: 20px;
+}
+
+.svg{
+   
+    background-color:  hsl(300, 24%, 96%);
+    padding: 10px 20px;
+    width: 340px;
+    border-radius: 9px;
+    margin-top: 15px;
+   
+}
+
+.shift1{
+    margin-left: 32px;
+}
+.shift{
+    margin-left: 64px;
+}
+
+.rate{
+     position: absolute;
+     left: 410px;
+     top: 0px;
+}
+
+img{
+    border-radius: 50%;
+    width: 30px
+}
+.pad {
+    padding: 20px;
+}
+
+.pad h5 {
+    position: absolute;
+    left: 62px;
+    display: inline-block;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    
+}
+
+span{
+    color: hsl(333, 80%, 67%);
+    font-size: 11px;
+}
+
+.pad p{
+    font-size: 12px;
+    color: hsl(300, 24%, 96%);
+    font-weight: 400;
+    margin-top: 20px;  
+}
+
+
+
+.ss2 h5{
+    position: absolute;
+    left: 350px;
+    display: inline-block;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+
+.ss3 h5{
+    position: absolute;
+    left: 640px;
+    display: inline-block;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+
+}
